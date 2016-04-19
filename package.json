@@ -1,0 +1,27 @@
+{
+  "name": "4x4-estatisticas",
+  "version": "1.0.0",
+  "description": "Site de estatísticas do quadro 4x4 do podcast 99Vidas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriBrunetto/4x4-estatisticas.git"
+  },
+  "author": "Yuri Brunetto (http://www.ybrntt.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuriBrunetto/4x4-estatisticas/issues"
+  },
+  "homepage": "https://github.com/YuriBrunetto/4x4-estatisticas#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}
