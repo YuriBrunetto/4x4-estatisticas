@@ -98,6 +98,11 @@ a {
         margin-top: 32px;
         font-size: 14px;
         border: 1px solid transparentize(#000, 0.87);
+        transition: transform 200ms;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     @media all and (min-width: 640px) {
@@ -265,6 +270,11 @@ a {
     a {
         color: $mainColor;
         border-bottom: 1px solid transparentize($mainColor, 0.4);
+        transition: border-color 300ms;
+
+        &:hover {
+            border-color: $mainColor;
+        }
     }
 
     i {
