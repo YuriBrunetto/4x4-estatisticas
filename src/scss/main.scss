@@ -19,6 +19,10 @@ a {
 
 /* ------ Landing page & topo ----- */
 
+.sobre {
+    display: none;
+}
+
 .landing-page {
     height: 100vh;
     background: $mainColor url(../../img/bg.png) center;
@@ -151,7 +155,7 @@ a {
 /* ------ Main & content ----- */
 
 .main {
-    padding: 32px 5% 64px 5%;
+    padding: 0 5% 64px 5%;
 
     .ep {
         padding: 64px 0;

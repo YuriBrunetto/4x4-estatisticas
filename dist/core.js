@@ -1,1 +1,1 @@
-$(function(){});
+$(function(){$(".rola-mah").click(function(){$("html, body").animate({scrollTop:$(".main").offset().top},1e3)}),$("a[data-modal]").click(function(a){return $(this).modal({fadeDuration:250}),!1})});
