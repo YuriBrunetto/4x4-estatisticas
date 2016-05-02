@@ -8,10 +8,6 @@ $(function(){
     });
 
     // modal stuff
-    // $("#sobre").click(function() {
-    //     $(".modal").modal();
-    // });
-
     $('a[data-modal]').click(function(event) {
         $(this).modal({ fadeDuration: 250 });
         return false;
